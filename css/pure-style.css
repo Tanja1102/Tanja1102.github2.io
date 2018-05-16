@@ -1,0 +1,77 @@
+.section_pure{
+	background: #2b342b;
+	padding: 101px 0 102px 0;
+}
+.section_pure_title,
+.section_pure_text,
+.red_layers_text,
+.yellow_layers_text,
+.green_layers_text,
+.blu_layers_text{
+	font-family: MyriadProRegular;
+	font-weight: 400;
+	letter-spacing: -0.72px;
+	color: #ffffff;
+}
+.section_pure_title{
+	font-size: 47px;
+	letter-spacing: -0.69px;
+	margin-bottom: 26px;
+}
+.section_pure_text{
+	font-size: 25px;
+	margin-bottom: 47px;
+}
+.red_layers_text,
+.yellow_layers_text,
+.green_layers_text,
+.blu_layers_text{
+	font-size: 22px;
+}
+.img_relative{
+	margin: 0 auto;
+	width: 279px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.red_layers{
+	position: absolute;
+	top: 97px;
+	left: -165px;
+}
+.red_layers_text{
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.yellow_layers{
+	position: absolute;
+	top: 202px;
+	left: -53px;
+}
+.yellow_layers_text{
+	position: absolute;
+	top: -15px;
+	left: 0;
+}
+.green_layers{
+	position: absolute;
+	top: 40px;
+	right: -165px;
+}
+.green_layers_text{
+	position: absolute;
+	top: -24px;
+	left: 85px;
+}
+.blu_layers{
+	position: absolute;
+	bottom: 67px;
+	right: -103px;
+}
+.blu_layers_text{
+	position: absolute;
+	top: -13px;
+	left: 65px;
+}

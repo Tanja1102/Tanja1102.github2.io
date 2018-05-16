@@ -1,0 +1,64 @@
+.section_plans{
+	background: #e9ede9;
+	padding: 115px 0 50px 0;
+}
+.plans_title,
+.plans_text,
+.list_title_grey,
+.plans_list_text,
+.plans_list_price,
+.button_link{
+	font-family: MyriadProRegular;
+	font-weight: 400;
+	letter-spacing: -0.72px;
+}
+.plans_title{
+	font-size: 47px;
+	color: #4e4e4e;
+	margin-bottom: 18px;
+}
+.plans_text{
+    font-size: 25px;
+    color: #737070;
+    margin-bottom: 11px;
+}
+.plans_list_title{
+	font-family: MyriadProSemiBold;
+	font-size: 33px;
+	font-weight: 400;
+	letter-spacing: -0.72px;
+	color: #7d7b7b;
+	margin-bottom: 51px;
+}
+.list_title_grey{
+	font-size: 33px;
+	color: #afacac;
+}
+.plans_list_text{
+	font-size: 32px;
+	color: #4e4e4e;
+	margin-bottom: 16px;
+}
+.plans_list_price{
+	font-size: 32px;
+	color: #b38e48;
+	margin-bottom: 39px;
+}
+.plans_list{
+	display: inline-block;
+	width: 33%;
+	background: #e2e4e1;
+	margin-top: 84px;
+	padding: 34px 0 41px 0;
+}
+.button_link{
+	background:#71ae5a;
+	width: 113px;
+	height: 37px;
+	border-radius: 13px; 
+	font-size: 16px;
+	color: #e9ede9;
+}
+.button_link:hover{
+	transform: scale(1.2, 1.2);
+}

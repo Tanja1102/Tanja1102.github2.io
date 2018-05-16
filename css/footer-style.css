@@ -1,0 +1,63 @@
+.footer {
+    background: #e9ede9;
+    padding: 152px 0 102px 0;
+}
+
+.footer_menu_link {
+    font-family: MyriadProSemiBold;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.77px;
+    color: #747373;
+}
+
+.footer_reserv {
+    font-family: MyriadProRegular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.77px;
+    color: #958f8f;
+    float: left;
+}
+
+.footer_menu {
+    float: left;
+    margin-bottom: 16px;
+}
+
+.footer_menu_link:nth-child(-n+4) {
+    margin-right: 34px;
+}
+.footer_menu_link:hover{
+    text-decoration: underline;
+}
+.scroll_button_link {
+    display: block;
+    width: 48px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #71ae5a;
+    position: relative;
+    bottom: 30px;
+    left: -10px;
+    float: right;
+}
+
+.scroll_button {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px solid #e9ede9;
+    position: absolute;
+    bottom: 16px;
+    left: 12px;
+}
+.clearfix::after,
+.footer_menu::after,
+.footer_reserv{
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}

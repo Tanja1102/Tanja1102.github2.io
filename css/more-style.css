@@ -1,0 +1,24 @@
+.section_more{
+	background: #ffffff;
+}
+.section_more_content{
+	padding: 121px 0 119px 0;
+}
+.section_more_title{
+	font-family: MyriadProRegular;
+	font-size: 47px;
+	font-weight: 400;
+	letter-spacing: -0.72px;
+	margin-bottom: 18px;
+}
+.section_more_text{
+	font-family: MyriadProRegular;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: -0.72px;
+	margin-bottom: 11px;
+}
+.section_more_img{
+	width: auto;
+	margin-top: 64px;
+}
